@@ -1,0 +1,20 @@
+# Christmas Gala
+
+Responsywny prototyp aplikacji eventowej w React + Vite.
+
+## Uruchomienie
+
+Node.js 20.19+ lub 22.12+.
+
+```sh
+npm ci --cache /workspace/.npm-cache
+npm run dev -- --port 5173
+```
+
+Produkcja: `npm run build`; podgląd: `npm run preview`.
+
+## Funkcje demonstracyjne
+
+Panel organizatora, lista i dodawanie gości, wyszukiwanie, eksport CSV, bilet QR do pobrania, check-in przez identyfikator, wybór diety i zapis alergii, podsumowanie cateringu, przypisania stolików przez przeciąganie lub listę wyboru, harmonogram, głosowanie i podgląd uczestnika.
+
+Dane przykładowe zapisują się w localStorage przeglądarki. Przełącznik roli jest podglądem, nie zabezpieczeniem. Brak backendu, prawdziwych kont, autoryzacji, skanowania kamerą, wysyłki zaproszeń i synchronizacji na żywo. Nie używać do obsługi rzeczywistych danych osobowych przed dodaniem uwierzytelniania i zabezpieczeń po stronie serwera.
