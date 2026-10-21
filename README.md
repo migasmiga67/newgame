@@ -1,4 +1,4 @@
-# Christmas Gala
+# newgame — Christmas Gala
 
 Responsywny prototyp aplikacji eventowej w React + Vite.
 
@@ -18,3 +18,9 @@ Produkcja: `npm run build`; podgląd: `npm run preview`.
 Panel organizatora, lista i dodawanie gości, wyszukiwanie, eksport CSV, bilet QR do pobrania, check-in przez identyfikator, wybór diety i zapis alergii, podsumowanie cateringu, przypisania stolików przez przeciąganie lub listę wyboru, harmonogram, głosowanie i podgląd uczestnika.
 
 Dane przykładowe zapisują się w localStorage przeglądarki. Przełącznik roli jest podglądem, nie zabezpieczeniem. Brak backendu, prawdziwych kont, autoryzacji, skanowania kamerą, wysyłki zaproszeń i synchronizacji na żywo. Nie używać do obsługi rzeczywistych danych osobowych przed dodaniem uwierzytelniania i zabezpieczeń po stronie serwera.
+
+## Publikacja na GitHub Pages
+
+Workflow `.github/workflows/pages.yml` buduje aplikację z katalogu głównego i publikuje `dist` po zmianach na `main`. W Settings → Pages ustaw Source na GitHub Actions. Ścieżka zasobów Vite: `/newgame/`.
+
+Wcześniejszy projekt w `frontend/chatgotuje` został zachowany; workflow publikuje Christmas Gala z katalogu głównego.
